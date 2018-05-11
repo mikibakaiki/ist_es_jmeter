@@ -2,6 +2,13 @@
 
 To run tests execute: mvn clean install
 
+Create DB using:
+`mysql -u root -p`
+
+and then:
+`create database <name_of_database>;`
+
+
 To launch a server execute in the module's top directory: mvn clean spring-boot:run
 
 To launch all servers execute in bin directory: startservers

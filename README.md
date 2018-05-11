@@ -17,3 +17,7 @@ To check if what process is running on a given port:
 To kill that same process:
 
 `fuser -k <number_of_port>/tcp`
+
+Test values for forms:
+
+`curl -v -d "var1=value1&var2=value2..." -X POST <path_where_to_post>`
